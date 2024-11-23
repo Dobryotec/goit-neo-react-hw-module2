@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 import firstLetterToUpperCase from '../../helpers/firstLetterToUpperCase';
-import { IButtonProps } from '../../types/options';
+import { IButtonProps } from '../Options/Options.types';
 
 import css from './Option.module.css';
 

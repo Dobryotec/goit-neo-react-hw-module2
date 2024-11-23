@@ -6,7 +6,7 @@ import Feedback from './components/Feedback/Feedback';
 import Options from './components/Options/Options';
 import Notification from './components/Notification/Notification';
 
-import { IReviewsState, Buttons, Button } from './types/app';
+import { IReviewsState, Button, Buttons } from './App';
 
 import './App.css';
 

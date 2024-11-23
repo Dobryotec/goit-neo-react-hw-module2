@@ -1,4 +1,4 @@
-import { Button, Buttons } from './app';
+import { Button, Buttons } from "../../App";
 
 export interface IButtonProps {
   name: Button;

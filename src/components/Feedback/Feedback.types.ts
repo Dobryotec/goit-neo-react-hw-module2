@@ -1,4 +1,4 @@
-import { IReviewsState } from "./app";
+import { IReviewsState } from "../../App";
 
 export interface ReviewsProps {
   reviews: IReviewsState;

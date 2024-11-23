@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { ReviewsProps } from '../../types/feedback';
+import { ReviewsProps } from './Feedback.types';
 
 import css from './Feedback.module.css';
 

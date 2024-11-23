@@ -1,4 +1,4 @@
-import { IDescriptionProps } from '../../types/description';
+import { IDescriptionProps } from './Description.types';
 
 import css from './Description.module.css';
 

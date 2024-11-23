@@ -1,4 +1,4 @@
-import { IContainerChildren } from '../../types/Container';
+import { IContainerChildren } from './Container.types';
 
 import css from './Container.module.css';
 

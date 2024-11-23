@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 import Option from '../Option/Option';
-import { IButtonsProps } from '../../types/options';
+import { IButtonsProps } from './Options.types';
 
 import css from './Options.module.css';
 
