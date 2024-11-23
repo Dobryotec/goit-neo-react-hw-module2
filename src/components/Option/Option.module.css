@@ -1,0 +1,47 @@
+.button {
+  min-width: 120px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+.button-good {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-good:hover,
+.button-good:focus {
+  background-color: #218838;
+}
+
+.button-neutral {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.button-neutral:hover,
+.button-neutral:focus {
+  background-color: #5a6268;
+}
+
+.button-bad {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button-bad:hover,
+.button-bad:focus {
+  background-color: #bd2130;
+}

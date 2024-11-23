@@ -1,0 +1,48 @@
+.button {
+  min-width: 120px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+.buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-list {
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .buttons-list {
+    gap: 60px;
+  }
+}
+
+.button-reset {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-reset:hover,
+.button-reset:focus {
+  background-color: #0056b3;
+}

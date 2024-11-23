@@ -1,0 +1,31 @@
+.header-block {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 35px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+}

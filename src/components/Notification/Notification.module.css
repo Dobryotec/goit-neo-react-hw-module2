@@ -1,0 +1,19 @@
+.notification {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .notification {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .notification {
+    font-size: 25px;
+  }
+}
